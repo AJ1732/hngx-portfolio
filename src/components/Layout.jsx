@@ -1,6 +1,7 @@
 import React from 'react'
 // import Navlinks from './Nav/Navlinks'
-import Navbar from './components/Nav/Navbar'
+import Navbar from './Nav/Navbar'
+import Footer from './Footer'
 
 import { Outlet } from 'react-router-dom'
 
@@ -9,6 +10,7 @@ const Layout = () => {
     <div>
       <Navbar />
       <Outlet />
+      <Footer />
     </div>
   )
 }
