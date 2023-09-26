@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 
 import './App.css'
 import Layout from './components/Layout'
@@ -13,7 +13,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Layout />}>
             <Route index element={<Pages />} />
-            <Route path='/*' element={<Error />}/> 
+            {/* <Route path='/*' element={<Error />}/>  */}
+            <Route path='/*' element={<Navigate to={`.`} />}/> 
           </Route>
         </Routes>
       </Router>
