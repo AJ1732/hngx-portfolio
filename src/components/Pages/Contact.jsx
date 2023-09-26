@@ -10,7 +10,7 @@ const Contact = () => {
     <div id='contact' className='min-h-screen w-full h-full py-10 px-10 flex flex-col gap-10'>
       <h2 className='font-light text-4xl'>Contact Me</h2>
 
-      <div className='min-h-screen bg-dark-brown text-white h-full w-full rounded p-10'>
+      <div className='min-h-fit bg-dark-brown text-white h-full w-full rounded p-10'>
         <ul className='grid grid-cols-2 items-center gap-10 | sm:grid-cols-3 md:grid-cols-4'>
           <li>
             <a 
