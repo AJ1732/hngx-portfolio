@@ -20,7 +20,7 @@ const MobileNavigation = () => {
 
   return (
     <nav className='absolute z-10 top-16 right-0 | h-full w-full px-10 | md:relative md:hidden'>
-      <h1 className='absolute -top-16 left-0 text-3xl text-dark-brown font-sansita font-extrabold  py-4 px-8'>Iboi</h1>
+      <h1 className='absolute -top-16 left-2 text-3xl text-dark-brown font-sansita font-extrabold  py-4 px-8'>Iboi</h1>
       {isOpen? closeIcon: hamburgerIcon}      
       {isOpen && <Navlinks isMobile={isOpen} closeMobileMenu={closeMobileMenu} />}     
     </nav>

@@ -10,8 +10,20 @@ const AboutMe = () => {
         <p>Fluent in English, beginner in French and Korean</p>
       </div>
 
-      <div className='min-h-screen flex flex-col justify-center i gap-2'>
+      <div className='min-h-screen flex flex-col  justify-center i gap-2'>
         <h2 className='font-light text-4xl'>Skills</h2>
+        <ul className='md:w-2/5 flex flex-wrap justify-between items-center gap-4 text-white'>
+          <li className=' bg-light-brown py-2 px-5 rounded'>HTML</li>
+          <li className=' bg-light-brown py-2 px-5 rounded'>CSS</li>
+          <li className=' bg-light-brown py-2 px-5 rounded'>JavaScript </li>
+          <li className=' bg-light-brown py-2 px-5 rounded'>React </li>
+          <li className=' bg-light-brown py-2 px-5 rounded'>jQuery </li>
+          <li className=' bg-light-brown py-2 px-5 rounded'>Tailwind CSS </li>
+          <li className=' bg-light-brown py-2 px-5 rounded'>Bootstrap</li>
+          <li className=' bg-light-brown py-2 px-5 rounded'>Git</li>
+          <li className=' bg-light-brown py-2 px-5 rounded'>DSA</li>
+          <li className=' bg-light-brown py-2 px-5 rounded'>UI/UX</li>
+        </ul>
         <ul className='flex flex-col gap-1'>
           <li>●	Apart from English, I'm Proficient in languages such as HTML and JavaScript, as well as CSS</li>
           <li>●	Familiarity with Frontend frameworks like Bootstrap, SCSS, Tailwind CSS, React and jQuery</li>

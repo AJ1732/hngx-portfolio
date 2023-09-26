@@ -52,7 +52,7 @@ const Navlinks = ({ isMobile, closeMobileMenu }) => {
           variants={navListVariants}
           onClick={ () => isMobile && closeMobileMenu() }
         >
-          <Link to={`.`} >Home</Link>
+          <Link to={`.`} smooth>Home</Link>
         </motion.li>
         
         <motion.li 
@@ -60,7 +60,7 @@ const Navlinks = ({ isMobile, closeMobileMenu }) => {
           variants={navListVariants}
           onClick={ () => isMobile && closeMobileMenu() }
         >
-          <HashLink to={`#projects`}>Projects</HashLink>
+          <HashLink to={`#projects`} smooth>Projects</HashLink>
         </motion.li>
 
         <motion.li 
@@ -68,7 +68,7 @@ const Navlinks = ({ isMobile, closeMobileMenu }) => {
           variants={navListVariants}
           onClick={ () => isMobile && closeMobileMenu() }
         >
-          <HashLink to={`#certificates`}>Certificates</HashLink>
+          <HashLink to={`#certificates`} smooth>Certificates</HashLink>
         </motion.li>
 
         <motion.li 
@@ -76,7 +76,7 @@ const Navlinks = ({ isMobile, closeMobileMenu }) => {
           variants={navListVariants}
           onClick={ () => isMobile && closeMobileMenu() }
         >
-          <HashLink to={`#contact`}>Conatct Me</HashLink>
+          <HashLink to={`#contact`} smooth>Conatct Me</HashLink>
         </motion.li>
       </ul>
     </motion.div>

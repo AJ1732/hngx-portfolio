@@ -19,7 +19,7 @@ export default {
         josefinSans: ['Josefin Sans', 'cursive'],
       },
       height: {
-        'calc': 'calc(100vh - 10rem)'
+        'calc': 'calc(100vh - 8rem)'
       }
 
     },
