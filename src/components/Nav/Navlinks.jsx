@@ -52,7 +52,7 @@ const Navlinks = ({ isMobile, closeMobileMenu }) => {
           variants={navListVariants}
           onClick={ () => isMobile && closeMobileMenu() }
         >
-          <Link to={`.`} smooth>Home</Link>
+          <HashLink to={`#home`} smooth>Home</HashLink>
         </motion.li>
         
         <motion.li 

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import { CgMenuRight } from "react-icons/cg";
 import { CgClose } from "react-icons/cg";
@@ -20,7 +21,7 @@ const MobileNavigation = () => {
 
   return (
     <nav className='absolute z-10 top-16 right-0 | h-full w-full px-10 | md:relative md:hidden'>
-      <h1 className='absolute -top-16 left-2 text-3xl text-dark-brown font-sansita font-extrabold  py-4 px-8'>Iboi</h1>
+      <Link to={`.`} className='absolute -top-16 left-2 text-3xl text-dark-brown font-sansita font-extrabold  py-4 px-8'>Iboi</Link>
       {isOpen? closeIcon: hamburgerIcon}      
       {isOpen && <Navlinks isMobile={isOpen} closeMobileMenu={closeMobileMenu} />}     
     </nav>

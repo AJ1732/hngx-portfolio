@@ -11,7 +11,7 @@ const Home = () => {
 
       <div className='flex flex-col gap-4 text-center md: md:text-left'>
         <h1 className='font-bold font-poppins text-4xl sm:text-5xl'>Hey! I'm Ejemen Iboi</h1>
-        <p className='font-light text-2xl sm:text-4xl'>I'm a Frontend Engineer</p>
+        <p className='font-light text-2xl sm:text-4xl'>A Frontend Engineer</p>
       </div>
     </div>
   )
