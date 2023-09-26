@@ -4,7 +4,7 @@ import womenTechster from '../../assets/womenTechster.jpeg'
 
 const Certificates = () => {
   return (
-    <div id='certificates' className='min-h-screen py-10 px-10 flex flex-col gap-8'>
+    <div id='certificates' className='min-h-screen pt-24 px-10 flex flex-col gap-8'>
       <h2 className='font-light text-4xl'>Certificates</h2>
       <ul className='text-white flex flex-col gap-12 sm:grid sm:grid-cols-2'>
         <li className='flex flex-col gap-4 justify-start items-center bg-light-brown rounded p-8'>

@@ -7,7 +7,7 @@ import passTheMessage from '../../assets/passTheMessage.png'
 
 const Projects = () => {
   return (
-    <div id='projects' className='min-h-screen py-10 px-10 flex flex-col gap-10'>
+    <div id='projects' className='min-h-screen pt-24 px-10 flex flex-col gap-10'>
       <h2 className='font-light text-4xl'>Projects</h2>
       
       <ul className='text-white flex flex-col gap-12 sm:grid sm:grid-cols-2'>
