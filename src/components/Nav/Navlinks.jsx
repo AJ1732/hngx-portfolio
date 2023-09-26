@@ -70,6 +70,14 @@ const Navlinks = ({ isMobile, closeMobileMenu }) => {
         >
           <HashLink to={`#certificates`}>Certificates</HashLink>
         </motion.li>
+
+        <motion.li 
+          className='hover:text-light-brown'
+          variants={navListVariants}
+          onClick={ () => isMobile && closeMobileMenu() }
+        >
+          <HashLink to={`#contact`}>Conatct Me</HashLink>
+        </motion.li>
       </ul>
     </motion.div>
   )
