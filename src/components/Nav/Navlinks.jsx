@@ -84,7 +84,7 @@ const Navlinks = ({ isMobile, closeMobileMenu }) => {
           variants={navListVariants}
           onClick={ () => isMobile && closeMobileMenu() }
         >
-          <HashLink to={`#contact`} smooth>Conatct Me</HashLink>
+          <HashLink to={`#contact`} smooth>Contact Me</HashLink>
         </motion.li>
       </ul>
     </motion.div>
