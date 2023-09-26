@@ -1,11 +1,12 @@
 import React from 'react'
 import portfolioImg from '../../assets/headshot.jpg'
+import portfolioImage from '../../assets/portfolioImage.jpeg'
 
 const Home = () => {
   return (
-    <div id='home' className='min-h-screen py-24 px-10 flex flex-col justify-start items-center gap-4 | md:h-calc md:py-10 sm:px-20 md:flex-row  md:gap-40'>
+    <div id='home' className='min-h-screen py-24 px-10 flex flex-col justify-center items-center gap-4 | md:h-calc md:py-10 sm:px-20 md:flex-row  md:gap-40'>
       <img 
-        src={portfolioImg} 
+        src={portfolioImage} 
         className='w-64 h-64 object-cover rounded-full | sm:w-96 sm:h-96'
         alt="Portfolio Image" />
 
