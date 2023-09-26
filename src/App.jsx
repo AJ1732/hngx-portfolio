@@ -14,8 +14,8 @@ function App() {
           <Route path='/' element={<Layout />}>
             <Route index element={<Pages />} />
             {/* <Route path='/*' element={<Error />}/>  */}
-            <Route path='/*' element={<Navigate to={`.`} />}/> 
           </Route>
+          <Route path='/*' element={<Navigate to={`.`} />}/> 
         </Routes>
       </Router>
     </div>
