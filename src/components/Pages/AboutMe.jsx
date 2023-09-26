@@ -10,9 +10,9 @@ const AboutMe = () => {
         <p>Fluent in English, beginner in French and Korean</p>
       </div>
 
-      <div className='min-h-screen flex flex-col  justify-center i gap-2'>
-        <h2 className='font-light text-4xl'>Skills</h2>
-        <ul className='md:w-2/5 flex flex-wrap justify-between items-center gap-4 text-white'>
+      <div className='min-h-screen flex flex-col  justify-center items-center gap-3'>
+        <h2 className='font-light text-4xl self-start'>Skills</h2>
+        <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>
           <li className=' bg-light-brown py-2 px-5 rounded'>HTML</li>
           <li className=' bg-light-brown py-2 px-5 rounded'>CSS</li>
           <li className=' bg-light-brown py-2 px-5 rounded'>JavaScript </li>
