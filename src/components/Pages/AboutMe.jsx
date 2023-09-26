@@ -37,10 +37,10 @@ const AboutMe = () => {
 
       <div className='flex flex-col gap-2'>
         <h2 className='font-light text-2xl'>Hobbies</h2>
-        <ul className='md:w-2/5 flex justify-between items-center gap- text-white'>
-          <li className=' bg-light-brown py-2 px-5 rounded'>Volleyball</li>
-          <li className=' bg-light-brown py-2 px-5 rounded'>Skateboarding</li>
-          <li className=' bg-light-brown py-2 px-5 rounded'>Golf </li>
+        <ul className='md:w-2/5 flex flex-wrap gap-2 justify-between items-center text-white'>
+          <li className=' bg-light-brown py-2 px-3 rounded'>Volleyball</li>
+          <li className=' bg-light-brown py-2 px-3 rounded'>Skateboarding</li>
+          <li className=' bg-light-brown py-2 px-3 rounded'>Golf </li>
         </ul>
       </div>
     </div>
