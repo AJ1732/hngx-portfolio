@@ -7,7 +7,7 @@ const Home = () => {
     <div id='home' className='min-h-calc py-24 px-10 flex flex-col justify-center items-center gap-4 | md:h-screen md:py-10 sm:px-20 md:flex-row  md:gap-40'>
       <img 
         src={portfolioImage} 
-        className='w-64 h-64 object-cover rounded-full | sm:w-96 sm:h-96'
+        className='w-64 h-64 object-cover rounded-full | md:w-96 md:h-96'
         alt="Portfolio Image" />
 
       <div className='flex flex-col gap-4 text-center md: md:text-left'>
