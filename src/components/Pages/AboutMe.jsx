@@ -11,7 +11,7 @@ const AboutMe = () => {
       </div>
 
       <div className='min-h-screen flex flex-col  justify-center items-center gap-3'>
-        <h2 className='font-light text-4xl self-start'>Skills</h2>
+        <h2 className='font-light text-2xl self-start'>Skills</h2>
         <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>
           <li className=' bg-light-brown py-2 px-5 rounded'>HTML</li>
           <li className=' bg-light-brown py-2 px-5 rounded'>CSS</li>

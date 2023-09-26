@@ -54,6 +54,14 @@ const Navlinks = ({ isMobile, closeMobileMenu }) => {
         >
           <HashLink to={`#home`} smooth>Home</HashLink>
         </motion.li>
+
+        <motion.li 
+          className='hover:text-light-brown'
+          variants={navListVariants}
+          onClick={ () => isMobile && closeMobileMenu() }
+        >
+          <HashLink to={`#aboutme`} smooth>About Me</HashLink>
+        </motion.li>
         
         <motion.li 
           className='hover:text-light-brown'
