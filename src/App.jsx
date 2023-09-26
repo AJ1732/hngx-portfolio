@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Layout />}>
             <Route index element={<Pages />} />
-            <Route path='*' element={<Error />}/> 
+            <Route path='/*' element={<Error />}/> 
           </Route>
         </Routes>
       </Router>
