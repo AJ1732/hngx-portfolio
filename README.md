@@ -1,12 +1,28 @@
-# React + Vite
+# AJ1732's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio! Here, you can find a collection of my best work, including personal projects, freelance work, and open-source contributions. 
+I'm a passionate Frontend Engineer with a focus on technical expertise, creative flair, and problem-solving skills. 
+I have a deep understanding of HTML, CSS, and JavaScript, along with the ability to utilize popular front-end frameworks like React. 
+I'm proficient in responsive design principles to ensure their creations seamlessly adapt to various screen sizes and devices.. I'm always looking for new challenges and opportunities to learn and grow.
 
-Currently, two official plugins are available:
+## Live Portfolio 
+[Portfolio Link](https://1732-portfolio.netlify.app/){:target="_blank"}
 
+## Skills
 
-# Live Site 
-https://1732-portfolio.netlify.app/
+* HTML
+* CSS
+* JavaScript
+* ReactJS
+* jQuery
+* TailwindCSS
+* SCSS
+* Framer Motion
+* Git
+* Data Structures and Algorithms
+* Web design principles
+* User Interface (UI)/ User Experience (UX) Design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Contact
+* LinkedIn: [Osezele Ejemen Iboi](https://www.linkedin.com/in/osezeleiboi/){:target="_blank"}
+* Twitter: [@EjemenIboi](https://twitter.com/EjemenIboi){:target="_blank"}
