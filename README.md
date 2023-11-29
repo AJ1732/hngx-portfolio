@@ -6,7 +6,7 @@ I have a deep understanding of HTML, CSS, and JavaScript, along with the ability
 I'm proficient in responsive design principles to ensure their creations seamlessly adapt to various screen sizes and devices.. I'm always looking for new challenges and opportunities to learn and grow.
 
 ## Live Portfolio 
-[Portfolio Link](https://1732-portfolio.netlify.app/){:target="_blank"}
+[Portfolio Link](https://1732-portfolio.netlify.app/)
 
 ## Skills
 
@@ -24,5 +24,5 @@ I'm proficient in responsive design principles to ensure their creations seamles
 * User Interface (UI)/ User Experience (UX) Design
 
 ## Contact
-* LinkedIn: [Osezele Ejemen Iboi](https://www.linkedin.com/in/osezeleiboi/){:target="_blank"}
-* Twitter: [@EjemenIboi](https://twitter.com/EjemenIboi){:target="_blank"}
+* LinkedIn: [Osezele Ejemen Iboi](https://www.linkedin.com/in/osezeleiboi/)
+* Twitter: [@EjemenIboi](https://twitter.com/EjemenIboi)
