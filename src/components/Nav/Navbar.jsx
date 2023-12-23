@@ -5,10 +5,10 @@ import MobileNavigation from './MobileNavigation'
 
 const Navbar = () => {
   return (
-    <div className='relative bg-white-brown-brown text-dark-brown'>
+    <header className='relative bg-white-brown-brown text-dark-brown'>
       <Navigation />
       <MobileNavigation />
-    </div>
+    </header>
   )
 }
 

@@ -7,7 +7,7 @@ import passTheMessage from '../../assets/passTheMessage.png'
 
 const Projects = () => {
   return (
-    <div id='projects' className='min-h-screen pt-24 px-10 flex flex-col gap-10'>
+    <section id='projects' className='min-h-screen pt-24 px-10 flex flex-col gap-10'>
       <h2 className='font-light text-4xl'>Projects</h2>
       
       <ul className='text-white flex flex-col gap-12 sm:grid sm:grid-cols-2'>
@@ -19,11 +19,12 @@ const Projects = () => {
             <li className=' bg-light-brown py-2 px-5 rounded'>Tailwind CSS </li>
             <li className=' bg-light-brown py-2 px-5 rounded'>Firebase </li>
           </ul>
-          <img 
-              src={galleryDrop} 
-              className='w-4/5 '
-              alt="Project Image" />
-          
+          <figure>
+            <img 
+                src={galleryDrop} 
+                className='w-4/5 m-auto'
+                alt="Project Image" />
+          </figure>    
           <div className='w-full flex justify-between items-center'>
             <a 
               className='self-start font-light hover:text-light-brown' 
@@ -42,11 +43,12 @@ const Projects = () => {
             <li className=' bg-light-brown py-2 px-5 rounded'>React icons</li>
             <li className=' bg-light-brown py-2 px-5 rounded'>Tailwind CSS </li>
           </ul>
-          <img 
-              src={taskTracker} 
-              className='w-4/5 '
-              alt="Project Image" />
-
+          <figure>
+            <img 
+                src={taskTracker} 
+                className='w-4/5 m-auto'
+                alt="Project Image" />
+          </figure>
           <div className='w-full flex justify-between items-center'>
             <a 
               className='self-start font-light hover:text-light-brown' 
@@ -66,11 +68,12 @@ const Projects = () => {
             <li className=' bg-light-brown py-2 px-5 rounded'>React Router v6</li>
             <li className=' bg-light-brown py-2 px-5 rounded'>Tailwind CSS </li>
           </ul>
-          <img 
-              src={vanLife} 
-              className='w-4/5 '
-              alt="Project Image" />
-
+          <figure>
+            <img 
+                src={vanLife} 
+                className='w-4/5 m-auto'
+                alt="Project Image" />
+          </figure>
           <div className='w-full flex justify-between items-center'>
             <a 
               className='self-start font-light hover:text-light-brown'
@@ -78,7 +81,6 @@ const Projects = () => {
             <a 
               className='self-start font-light hover:text-light-brown'
               href="https://github.com/AJ1732/van-life" target='_blank'>Link to GitHub Repo</a>
-
           </div>
         </li>
 
@@ -90,10 +92,12 @@ const Projects = () => {
             <li className=' bg-light-brown py-2 px-5 rounded'>CSS </li>
             <li className=' bg-light-brown py-2 px-5 rounded'>JavaScript</li>
           </ul>
-          <img 
-              src={passTheMessage} 
-              className='w-4/5 '
-              alt="Project Image" />
+          <figure>
+            <img 
+                src={passTheMessage} 
+                className='w-4/5 m-auto'
+                alt="Project Image" />
+          </figure>
           <div className='w-full flex justify-between items-center'>
             <a 
               className='self-start font-light hover:text-light-brown'
@@ -113,11 +117,12 @@ const Projects = () => {
             <li className=' bg-light-brown py-2 px-5 rounded'>meme API </li>
             <li className=' bg-light-brown py-2 px-5 rounded'>JavaScript</li>
           </ul>
-          <img 
-              src={memeGenerator} 
-              className='w-4/5 '
-              alt="Project Image" />
-          
+          <figure>
+            <img 
+                src={memeGenerator} 
+                className='w-4/5 m-auto'
+                alt="Project Image" />
+          </figure>
           <div className='w-full flex justify-between items-center'>
             <a 
               className='self-start font-light hover:text-light-brown'
@@ -128,7 +133,7 @@ const Projects = () => {
           </div>
         </li>
       </ul>
-    </div>
+    </section>
   )
 }
 

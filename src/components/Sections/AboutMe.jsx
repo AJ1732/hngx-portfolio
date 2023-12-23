@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div id='aboutme' className='min-h-fit w-full h-full pt-24 px-10 |  | flex flex-col gap-10'>
+    <section id='aboutme' className='min-h-fit w-full h-full pt-24 px-10 |  | flex flex-col gap-10'>
       <h2 className='font-light text-4xl'>About Me</h2>
       <div className='font-normal text-xl flex flex-col gap-2'>
         <p>An inquisitive and motivated Frontend Engineer, willing to obtain such position to utilize my skills in web development and programming, while continuously improving my skills and knowledge in this field.</p>
@@ -24,6 +24,7 @@ const AboutMe = () => {
           <li className=' bg-light-brown py-2 px-5 rounded'>DSA</li>
           <li className=' bg-light-brown py-2 px-5 rounded'>UI/UX</li>
         </ul>
+        
         <ul className='flex flex-col gap-1'>
           <li>●	Apart from English, I'm Proficient in languages such as HTML and JavaScript, as well as CSS</li>
           <li>●	Familiarity with Frontend frameworks like Bootstrap, SCSS, Tailwind CSS, React and jQuery</li>
@@ -43,7 +44,7 @@ const AboutMe = () => {
           <li className=' bg-light-brown py-2 px-3 rounded'>Golf </li>
         </ul>
       </div>
-    </div>
+    </section>
   )
 }
 

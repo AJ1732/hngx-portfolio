@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 
 import './App.css'
 import Layout from './components/Layout'
-import Pages from './components/Pages/Pages'
-import Error from './components/Pages/Error'
+import Pages from './components/Pages'
+// import Error from './components/Pages/Error'
 
 function App() {
 
