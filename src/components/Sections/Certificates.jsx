@@ -2,6 +2,7 @@ import React from 'react'
 import freeCodeCamp from '../../assets/freeCodeCamp.png'
 import womenTechster from '../../assets/womenTechster.jpeg'
 import stuternHackathon from '../../assets/stuternHackathon.png'
+import courseaHTMLCertificate from '../../assets/courseraHTMLCSSCertificate.png'
 
 const Certificates = () => {
   return (
@@ -10,13 +11,13 @@ const Certificates = () => {
       
       <ul className='text-white flex flex-col gap-12 sm:grid sm:grid-cols-2'>
         <li>
-          <figure className='flex flex-col gap-4 justify-start items-center bg-light-brown rounded p-8'>
-            <figcaption className='font-poppins font-medium  self-start sm:text-xl'>FreeCodeCamp Responsive Web Design</figcaption>
-            <a className='flex flex-col gap-4 justify-start items-center' href="https://freecodecamp.org/certification/Ejemen/responsive-web-design" target='_blank'>
+          <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8'>
+            <figcaption className='font-poppins font-medium self-start sm:text-xl'>Coursera Meta HTML and CSS in depth</figcaption>
+            <a className='flex flex-col gap-4 justify-start items-center' href="https://coursera.org/share/6d1e5b29f7fdc15872271936ba4bb3bd" target='_blank'>
               <img 
-                src={freeCodeCamp} 
-                className='w-4/5 '
-                alt="freeCodeCamp Certificate" />
+                  src={courseaHTMLCertificate} 
+                  className='w-4/5'
+                  alt="Coursera Meta HTML and CSS in depth" />
             </a>
           </figure>
         </li>
@@ -53,6 +54,18 @@ const Certificates = () => {
                 src={womenTechster} 
                 className='w-4/5'
                 alt="Women Techster Bootcamp Certificate" />
+            </a>
+          </figure>
+        </li>
+
+        <li>
+          <figure className='flex flex-col gap-4 justify-start items-center bg-light-brown rounded p-8'>
+            <figcaption className='font-poppins font-medium  self-start sm:text-xl'>FreeCodeCamp Responsive Web Design</figcaption>
+            <a className='flex flex-col gap-4 justify-start items-center' href="https://freecodecamp.org/certification/Ejemen/responsive-web-design" target='_blank'>
+              <img 
+                src={freeCodeCamp} 
+                className='w-4/5 '
+                alt="freeCodeCamp Certificate" />
             </a>
           </figure>
         </li>
