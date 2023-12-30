@@ -1,6 +1,6 @@
 import React from 'react'
 import portfolioImg from '../../assets/headshot.jpg'
-import portfolioImage from '../../assets/portfolioImage.jpeg'
+import portfolioImage from '../../assets/aj_profile.jpeg'
 
 const Home = () => {
   return (

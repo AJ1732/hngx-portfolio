@@ -156,6 +156,30 @@ const Projects = () => {
               href="https://github.com/AJ1732/coursera_portfolio_project" target='_blank'>Link to GitHub Repo</a>
           </div>
         </article>
+
+        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit'>
+          <h2 className='font-poppins font-medium self-start sm:text-xl'>Coursera HTML and CSS in-depth Portfolio Project</h2>
+          <p className='font-extralight'>A well-styled and responsive Blog web application that allows users to create and view blog posts. Users can create new posts, to view all their posts, edit and delete posts as needed. Built using the following technologies: </p>
+          <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>
+            <li className=' bg-light-brown py-2 px-5 rounded'>EJS</li>
+            <li className=' bg-light-brown py-2 px-5 rounded'>Node.js</li>
+            <li className=' bg-light-brown py-2 px-5 rounded'>Express.js</li>
+          </ul>
+          <figure>
+            <img 
+                src={mangataGallo} 
+                className='w-4/5 m-auto'
+                alt="Project Image" />
+          </figure>
+          <div className='w-full flex justify-between items-center'>
+            <a 
+              className='self-start font-light hover:text-light-brown'
+              href="https://mangata-and-gallo.netlify.app/" target='_blank'>Link to Project</a>
+            <a 
+              className='self-start font-light hover:text-light-brown'
+              href="https://github.com/AJ1732/coursera_portfolio_project" target='_blank'>Link to GitHub Repo</a>
+          </div>
+        </article>
       </div>
     </section>
   )
