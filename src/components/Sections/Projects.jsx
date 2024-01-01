@@ -158,12 +158,13 @@ const Projects = () => {
         </article>
 
         <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit'>
-          <h2 className='font-poppins font-medium self-start sm:text-xl'>Coursera HTML and CSS in-depth Portfolio Project</h2>
-          <p className='font-extralight'>A well-styled and responsive Blog web application that allows users to create and view blog posts. Users can create new posts, to view all their posts, edit and delete posts as needed. Built using the following technologies: </p>
+          <h2 className='font-poppins font-medium self-start sm:text-xl'>Blog It Application</h2>
+          <p className='font-extralight'>This project is a simple Blog web application built using Node.js, Express.js, and EJS. It allows users to create, view, update, and delete blog posts. Built using the following technologies: </p>
           <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>
             <li className=' bg-light-brown py-2 px-5 rounded'>EJS</li>
             <li className=' bg-light-brown py-2 px-5 rounded'>Node.js</li>
             <li className=' bg-light-brown py-2 px-5 rounded'>Express.js</li>
+            <li className=' bg-light-brown py-2 px-5 rounded'>Bootstrap</li>
           </ul>
           <figure>
             <img 
