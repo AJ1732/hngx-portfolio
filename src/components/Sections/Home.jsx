@@ -4,7 +4,7 @@ import portfolioImage from '../../assets/aj_profile.jpeg'
 
 const Home = () => {
   return (
-    <section id='home' className='min-h-calc py-24 px-10 flex flex-col justify-center items-center gap-4 | md:h-screen md:py-10 sm:px-20 md:flex-row md:justify-center md:items-center md:gap-40'>
+    <section id='home' className='min-h-calc py-24 px-10 flex flex-col justify-center items-center gap-4 | md:h-screen md:py-10 sm:px-20 md:flex-row md:justify-center md:items-center md:gap-20 | lg:gap-40'>
       <img 
         src={portfolioImage} 
         className='w-64 h-64 object-cover rounded-full | md:w-96 md:h-96'
