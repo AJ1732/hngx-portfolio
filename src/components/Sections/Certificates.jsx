@@ -2,7 +2,8 @@ import React from 'react'
 import freeCodeCamp from '../../assets/freeCodeCamp.png'
 import womenTechster from '../../assets/womenTechster.jpeg'
 import stuternHackathon from '../../assets/stuternHackathon.png'
-import courseaHTMLCertificate from '../../assets/courseraHTMLCSSCertificate.png'
+import courseraHTMLCertificate from '../../assets/courseraHTMLCSSCertificate.png'
+import courseraReactBasics from '../../assets/metaCourseraReactBasics.png'
 
 const Certificates = () => {
   return (
@@ -12,10 +13,22 @@ const Certificates = () => {
       <ul className='text-white flex flex-col gap-12 sm:grid sm:grid-cols-2'>
         <li>
           <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8'>
-            <figcaption className='font-poppins font-medium self-start sm:text-xl'>Coursera Meta HTML and CSS in depth</figcaption>
-            <a className='flex flex-col gap-4 justify-start items-center' href="https://coursera.org/share/6d1e5b29f7fdc15872271936ba4bb3bd" target='_blank'>
+            <figcaption className='font-poppins font-medium self-start sm:text-xl'>Meta Front-End Dev Specialization: React Basics</figcaption>
+            <a className='flex flex-col gap-4 justify-start items-center' href="https://www.coursera.org/account/accomplishments/certificate/DW4CNFUD9AJG" target='_blank'>
               <img 
-                  src={courseaHTMLCertificate} 
+                  src={courseraReactBasics} 
+                  className='w-4/5'
+                  alt="Coursera Meta HTML and CSS in depth" />
+            </a>
+          </figure>
+        </li>
+        
+        <li>
+          <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8'>
+            <figcaption className='font-poppins font-medium self-start sm:text-xl'>Meta Front-End Dev Specialization: HTML and CSS in depth</figcaption>
+            <a className='flex flex-col gap-4 justify-start items-center' href="https://www.coursera.org/account/accomplishments/certificate/RUWZMZJUUBW7" target='_blank'>
+              <img 
+                  src={courseraHTMLCertificate} 
                   className='w-4/5'
                   alt="Coursera Meta HTML and CSS in depth" />
             </a>
