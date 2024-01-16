@@ -18,6 +18,7 @@ const AboutMe = () => {
           <li className=' bg-light-brown py-2 px-5 rounded'>JavaScript </li>
           <li className=' bg-light-brown py-2 px-5 rounded'>React </li>
           <li className=' bg-light-brown py-2 px-5 rounded'>jQuery </li>
+          <li className=' bg-light-brown py-2 px-5 rounded'>EJS </li>
           <li className=' bg-light-brown py-2 px-5 rounded'>Tailwind CSS </li>
           <li className=' bg-light-brown py-2 px-5 rounded'>Bootstrap</li>
           <li className=' bg-light-brown py-2 px-5 rounded'>Git</li>
