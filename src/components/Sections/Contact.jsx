@@ -26,7 +26,7 @@ const Contact = () => {
               className='text-2xl flex justify-start items-center gap-4'
               href="https://www.linkedin.com/in/osezeleiboi/" target='_blank'>
               <FaLinkedin className='text-6xl' />
-              <h2 className='font-poppins'>LinkedIn</h2>
+              <h2 className='font-light font-josefinSans'>LinkedIn</h2>
             </a>
           </li>
 
@@ -35,7 +35,7 @@ const Contact = () => {
               className='text-2xl flex justify-start items-center gap-4'
               href="https://twitter.com/EjemenIboi" target='_blank'>
               <FaXTwitter className='text-6xl' />
-              <h2 className='font-poppins'>Twitter</h2>
+              <h2 className='font-light font-josefinSans'>Twitter</h2>
             </a>
           </li>
 
@@ -44,7 +44,7 @@ const Contact = () => {
               className='text-2xl flex justify-start items-center gap-4'
               href="mailto:ejemeniboi@outlook.com" target='_blank'>
               <HiOutlineMail className='text-6xl' />
-              <h2 className='font-poppins'>Email</h2>
+              <h2 className='font-light font-josefinSans'>Email</h2>
             </a>
           </li>
         </ul>
