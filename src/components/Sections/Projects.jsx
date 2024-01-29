@@ -11,8 +11,8 @@ const Projects = () => {
     <section id='projects' className='min-h-screen pt-24 px-10 flex flex-col gap-10'>
       <h2 className='font-light text-4xl'>Projects</h2>
       
-      <div className='text-white flex flex-col gap-12 sm:grid sm:grid-cols-2'>
-        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit'>
+      <div className='text-white columns-md gap-8 w-full max-w-full mx-auto my-20 '>
+        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
           <h2 className='font-poppins font-medium self-start sm:text-xl'>Gallery Drop</h2>
           <p className='font-extralight'>A functional and responsive image gallery that showcases a collection of images in a visually appealing way. Ability to Login to the gallery page. Authenticated users are able to use the Drag-and-Drop feature, able to select and drag images, effortlessly rearranging them within the gallery. Built using the following technologies:</p>
           <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>
@@ -36,7 +36,7 @@ const Projects = () => {
           </div>
         </article>
 
-        <article className='flex flex-col gap-4 justify-between items-center bg-dark-brown rounded p-8 | h-fit'>
+        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
           <h2 className='font-poppins font-medium self-start sm:text-xl'>Task Tracker</h2>
           <p className='font-extralight'>Built a responsive task tracker application, that allows users to create and delete tasks, helping them stay organized and manage their daily activities effectively. Implemented a user-friendly design using the following technologies:</p>
           <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>
@@ -61,7 +61,7 @@ const Projects = () => {
           </div>
         </article>
 
-        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit'>
+        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
           <h2 className='font-poppins font-medium self-start sm:text-xl'>Van Life</h2>
           <p className='font-extralight'>A react application simplify and enhance the van life experience for enthusiasts around the globe. Built using the following technologies:</p>
           <ul className='w-full flex flex-wrap justify-between items-center gap-1 text-white'>
@@ -85,7 +85,7 @@ const Projects = () => {
           </div>
         </article>
 
-        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit'>
+        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
           <h2 className='font-poppins font-medium self-start sm:text-xl'>Pass the Message</h2>
           <p className='font-extralight'>A simple Text lister. Input what you want. Built used the following technologies: </p>
           <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>
@@ -110,7 +110,7 @@ const Projects = () => {
           </div>
         </article>
 
-        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit'>
+        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
           <h2 className='font-poppins font-medium self-start sm:text-xl'>Meme Generator</h2>
           <p className='font-extralight'>Are you ready to unleash your inner comedian and conquer the internet with humor? Look no further, because the Meme Generator is here to transform your everyday moments into viral sensations. Built using the following technologies: </p>
           <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>
@@ -134,7 +134,7 @@ const Projects = () => {
           </div>
         </article>
 
-        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit'>
+        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
           <h2 className='font-poppins font-medium self-start sm:text-xl'>Coursera HTML and CSS in-depth Portfolio Project</h2>
           <p className='font-extralight'>This portfolio project demonstrates my ability to create a visually appealing and user-friendly website for a fictional client, Mangata and Gallo, a jewelry store specializing in special occasions. Built using the following technologies: </p>
           <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>

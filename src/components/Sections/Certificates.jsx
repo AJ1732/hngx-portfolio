@@ -10,9 +10,9 @@ const Certificates = () => {
     <section id='certificates' className='min-h-screen pt-24 px-10 flex flex-col gap-8'>
       <h2 className='font-light text-4xl'>Certificates</h2>
       
-      <ul className='text-white flex flex-col gap-12 sm:grid sm:grid-cols-2'>
+      <ul className='text-white columns-md gap-8 w-full max-w-full mx-auto my-20'>
         <li>
-          <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8'>
+          <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
             <figcaption className='font-poppins font-medium self-start sm:text-xl'>Meta Front-End Dev Specialization: React Basics</figcaption>
             <a className='flex flex-col gap-4 justify-start items-center' href="https://www.coursera.org/account/accomplishments/certificate/DW4CNFUD9AJG" target='_blank'>
               <img 
@@ -24,7 +24,7 @@ const Certificates = () => {
         </li>
         
         <li>
-          <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8'>
+          <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
             <figcaption className='font-poppins font-medium self-start sm:text-xl'>Meta Front-End Dev Specialization: HTML and CSS in depth</figcaption>
             <a className='flex flex-col gap-4 justify-start items-center' href="https://www.coursera.org/account/accomplishments/certificate/RUWZMZJUUBW7" target='_blank'>
               <img 
@@ -36,7 +36,7 @@ const Certificates = () => {
         </li>
 
         <li>
-          <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8'>
+          <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
             <figcaption className='font-poppins font-medium self-start sm:text-xl'>The Complete 2023 Web Development Bootcamp</figcaption>
             <a className='flex flex-col gap-4 justify-start items-center' href="https://www.udemy.com/certificate/UC-3a853897-2f20-4fc8-87c8-83d4f657e9ae/" target='_blank'>
               <img 
@@ -48,7 +48,7 @@ const Certificates = () => {
         </li>
 
         <li>
-          <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8'>
+          <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
             <figcaption className='font-poppins font-medium self-start sm:text-xl'>Stutern Klusterthon Hackathon 2023</figcaption>
             <a className='flex flex-col gap-4 justify-start items-center' href="https://stuternklusterthon.tiiny.site/" target='_blank'>
               <img 
@@ -60,7 +60,7 @@ const Certificates = () => {
         </li>
 
         <li>
-          <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8'>
+          <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
             <figcaption className='font-poppins font-medium self-start sm:text-xl'>Women Techster Bootcamp</figcaption>
             <a className='flex flex-col gap-4 justify-start items-center' href="https://www.linkedin.com/in/osezeleiboi/" target='_blank'>
               <img 
@@ -72,7 +72,7 @@ const Certificates = () => {
         </li>
 
         <li>
-          <figure className='flex flex-col gap-4 justify-start items-center bg-light-brown rounded p-8'>
+          <figure className='flex flex-col gap-4 justify-start items-center bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
             <figcaption className='font-poppins font-medium  self-start sm:text-xl'>FreeCodeCamp Responsive Web Design</figcaption>
             <a className='flex flex-col gap-4 justify-start items-center' href="https://freecodecamp.org/certification/Ejemen/responsive-web-design" target='_blank'>
               <img 
