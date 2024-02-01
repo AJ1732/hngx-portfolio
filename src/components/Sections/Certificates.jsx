@@ -1,9 +1,10 @@
 import React from 'react'
-import freeCodeCamp from '../../assets/freeCodeCamp.png'
-import womenTechster from '../../assets/womenTechster.jpeg'
-import stuternHackathon from '../../assets/stuternHackathon.png'
-import courseraHTMLCertificate from '../../assets/courseraHTMLCSSCertificate.png'
-import courseraReactBasics from '../../assets/metaCourseraReactBasics.png'
+import freeCodeCamp from '../../assets/certificates/freeCodeCamp.png'
+import womenTechster from '../../assets/certificates/womenTechster.jpeg'
+import stuternHackathon from '../../assets/certificates/stuternHackathon.png'
+import courseraHTMLCertificate from '../../assets/certificates/courseraHTMLCSSCertificate.png'
+import courseraReactBasics from '../../assets/certificates/metaCourseraReactBasics.png'
+import courseraProgWithJSCertificate from '../../assets/certificates/courseraProgWithJSCertificate.png'
 
 const Certificates = () => {
   return (
@@ -13,19 +14,31 @@ const Certificates = () => {
       <ul className='text-white columns-md gap-8 w-full max-w-full mx-auto my-20'>
         <li>
           <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
-            <figcaption className='font-poppins font-medium self-start sm:text-xl'>Meta Front-End Dev Specialization: React Basics</figcaption>
+            <figcaption className='font-poppins font-medium self-start sm:text-xl'>Meta Front-End Developer Specialization: React Basics</figcaption>
             <a className='flex flex-col gap-4 justify-start items-center' href="https://www.coursera.org/account/accomplishments/certificate/DW4CNFUD9AJG" target='_blank'>
               <img 
                   src={courseraReactBasics} 
                   className='w-4/5'
-                  alt="Coursera Meta HTML and CSS in depth" />
+                  alt="Coursera Meta React Basics Certificates" />
+            </a>
+          </figure>
+        </li>
+
+        <li>
+          <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
+            <figcaption className='font-poppins font-medium self-start sm:text-xl'>Meta Front-End Developer Specialization: Programming with JavaScript</figcaption>
+            <a className='flex flex-col gap-4 justify-start items-center' href="https://www.coursera.org/account/accomplishments/certificate/WNSWLS292JFC" target='_blank'>
+              <img 
+                  src={courseraProgWithJSCertificate} 
+                  className='w-4/5'
+                  alt="Coursera Meta Peogramming With JavaScript Certificate" />
             </a>
           </figure>
         </li>
         
         <li>
           <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
-            <figcaption className='font-poppins font-medium self-start sm:text-xl'>Meta Front-End Dev Specialization: HTML and CSS in depth</figcaption>
+            <figcaption className='font-poppins font-medium self-start sm:text-xl'>Meta Front-End Developer Specialization: HTML and CSS in depth</figcaption>
             <a className='flex flex-col gap-4 justify-start items-center' href="https://www.coursera.org/account/accomplishments/certificate/RUWZMZJUUBW7" target='_blank'>
               <img 
                   src={courseraHTMLCertificate} 
