@@ -1,6 +1,7 @@
 import React from 'react'
 import galleryDrop from '../../assets/projects/galleryDrop.png'
 import taskTracker from '../../assets/projects/taskTracker.png'
+import clearLink from '../../assets/projects/clearLink.png'
 import vanLife from '../../assets/projects/vanLife.png'
 import memeGenerator from '../../assets/projects/memeGenerator.png'
 import passTheMessage from '../../assets/projects/passTheMessage.png'
@@ -38,52 +39,28 @@ const Projects = () => {
         </article>
 
         <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
-          <h2 className='font-poppins font-medium self-start sm:text-xl'>Task Tracker</h2>
-          <p className='font-extralight'>Built a responsive task tracker application, that allows users to create and delete tasks, helping them stay organized and manage their daily activities effectively. Implemented a user-friendly design using the following technologies:</p>
+          <h2 className='font-poppins font-medium self-start sm:text-xl'>Meme Generator</h2>
+          <p className='font-extralight'>Are you ready to unleash your inner comedian and conquer the internet with humor? Look no further, because the Meme Generator is here to transform your everyday moments into viral sensations. Built using the following technologies: </p>
           <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>
             <Div skill={'React'} />
-            <Div skill={'TailwindCSS'} />
+            <Div skill={'meme API'} />
+            <Div skill={'JavaScript'} />
           </ul>
           <figure>
             <img 
-                src={taskTracker} 
-                className='w-4/5 m-auto'
-                alt="Project Image" />
-          </figure>
-          <div className='w-full flex justify-between items-center'>
-            <a 
-              className='self-start font-light hover:text-light-brown' 
-              href="https://1732-task-tracker.netlify.app/" target='_blank'>Link to Project</a>
-            <a 
-              className='self-start font-light hover:text-light-brown' 
-              href="https://github.com/AJ1732/task-tracker" target='_blank'>Link to GitHub Repo</a>
-
-          </div>
-        </article>
-
-        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
-          <h2 className='font-poppins font-medium self-start sm:text-xl'>Van Life</h2>
-          <p className='font-extralight'>A react application simplify and enhance the van life experience for enthusiasts around the globe. Built using the following technologies:</p>
-          <ul className='w-full flex flex-wrap justify-between items-center gap-1 text-white'>
-            <Div skill={'React'}/>
-            <Div skill={'React Router v6'}/>
-            <Div skill={'TailwindCSS'}/>
-          </ul>
-          <figure>
-            <img 
-                src={vanLife} 
+                src={memeGenerator} 
                 className='w-4/5 m-auto'
                 alt="Project Image" />
           </figure>
           <div className='w-full flex justify-between items-center'>
             <a 
               className='self-start font-light hover:text-light-brown'
-              href="https://1732-van-life.netlify.app/" target='_blank'>Link to Project</a>
+              href="https://1732-meme-generator.netlify.app/" target='_blank'>Link to Project</a>
             <a 
               className='self-start font-light hover:text-light-brown'
-              href="https://github.com/AJ1732/van-life" target='_blank'>Link to GitHub Repo</a>
+              href="https://github.com/AJ1732/meme-generator" target='_blank'>Link to GitHub Repo</a>
           </div>
-        </article>
+        </article> 
 
         <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
           <h2 className='font-poppins font-medium self-start sm:text-xl'>Pass the Message</h2>
@@ -111,29 +88,76 @@ const Projects = () => {
         </article>
 
         <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
-          <h2 className='font-poppins font-medium self-start sm:text-xl'>Meme Generator</h2>
-          <p className='font-extralight'>Are you ready to unleash your inner comedian and conquer the internet with humor? Look no further, because the Meme Generator is here to transform your everyday moments into viral sensations. Built using the following technologies: </p>
+          <h2 className='font-poppins font-medium self-start sm:text-xl'>Task Tracker</h2>
+          <p className='font-extralight'>Built a responsive task tracker application, that allows users to create and delete tasks, helping them stay organized and manage their daily activities effectively. Implemented a user-friendly design using the following technologies:</p>
           <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>
             <Div skill={'React'} />
-            <Div skill={'meme API'} />
-            <Div skill={'JavaScript'} />
+            <Div skill={'TailwindCSS'} />
           </ul>
           <figure>
             <img 
-                src={memeGenerator} 
+                src={taskTracker} 
+                className='w-4/5 m-auto'
+                alt="Project Image" />
+          </figure>
+          <div className='w-full flex justify-between items-center'>
+            <a 
+              className='self-start font-light hover:text-light-brown' 
+              href="https://1732-task-tracker.netlify.app/" target='_blank'>Link to Project</a>
+            <a 
+              className='self-start font-light hover:text-light-brown' 
+              href="https://github.com/AJ1732/task-tracker" target='_blank'>Link to GitHub Repo</a>
+
+          </div>
+        </article>
+            
+        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
+          <h2 className='font-poppins font-medium self-start sm:text-xl'>Clear Link</h2>
+          <p className='font-extralight'>Welcome to Clear Link, your gateway to effortless video conferencing and seamless recording! Capture every moment, share important discussions, and shape the future of communication with us. Built using the following technologies:</p>
+          <ul className='w-full flex flex-wrap justify-between items-center gap-1 text-white'>
+            <Div skill={'React'}/>
+            <Div skill={'TailwindCSS'}/>
+          </ul>
+          <figure>
+            <img 
+                src={clearLink} 
                 className='w-4/5 m-auto'
                 alt="Project Image" />
           </figure>
           <div className='w-full flex justify-between items-center'>
             <a 
               className='self-start font-light hover:text-light-brown'
-              href="https://1732-meme-generator.netlify.app/" target='_blank'>Link to Project</a>
+              href="https://1732-clearlink.netlify.app/" target='_blank'>Link to Project</a>
             <a 
               className='self-start font-light hover:text-light-brown'
-              href="https://github.com/AJ1732/meme-generator" target='_blank'>Link to GitHub Repo</a>
+              href="https://github.com/AJ1732/clearlink" target='_blank'>Link to GitHub Repo</a>
           </div>
         </article>
 
+        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
+          <h2 className='font-poppins font-medium self-start sm:text-xl'>Van Life</h2>
+          <p className='font-extralight'>A react application simplify and enhance the van life experience for enthusiasts around the globe. Built using the following technologies:</p>
+          <ul className='w-full flex flex-wrap justify-between items-center gap-1 text-white'>
+            <Div skill={'React'}/>
+            <Div skill={'React Router v6'}/>
+            <Div skill={'TailwindCSS'}/>
+          </ul>
+          <figure>
+            <img 
+                src={vanLife} 
+                className='w-4/5 m-auto'
+                alt="Project Image" />
+          </figure>
+          <div className='w-full flex justify-between items-center'>
+            <a 
+              className='self-start font-light hover:text-light-brown'
+              href="https://1732-van-life.netlify.app/" target='_blank'>Link to Project</a>
+            <a 
+              className='self-start font-light hover:text-light-brown'
+              href="https://github.com/AJ1732/van-life" target='_blank'>Link to GitHub Repo</a>
+          </div>
+        </article>
+        
         <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
           <h2 className='font-poppins font-medium self-start sm:text-xl'>Coursera HTML and CSS in-depth Portfolio Project</h2>
           <p className='font-extralight'>This portfolio project demonstrates my ability to create a visually appealing and user-friendly website for a fictional client, Mangata and Gallo, a jewelry store specializing in special occasions. Built using the following technologies: </p>
