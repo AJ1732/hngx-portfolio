@@ -33,8 +33,8 @@ const AboutMe = () => {
         <h2 className='font-light text-2xl self-start'>Skills</h2>
         <ul className='w-full flex flex-wrap justify-between items-center gap-6 text-white'>
           {skills.map(skill => (
-            <li>
-              <Div key={skill} skill={skill} />
+            <li key={skill}>
+              <Div skill={skill} />
             </li>
           ))}
         </ul>

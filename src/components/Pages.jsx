@@ -4,6 +4,7 @@ import AboutMe from './Sections/AboutMe'
 import Projects from './Sections/Projects'
 import Certificates from './Sections/Certificates'
 import Contact from './Sections/Contact'
+import Collaborations from './Sections/Collaborations'
 
 
 const Pages = () => {
@@ -13,6 +14,7 @@ const Pages = () => {
       <AboutMe />
       <Projects />
       <Certificates />
+      <Collaborations />
       <Contact />
     </>
   )
