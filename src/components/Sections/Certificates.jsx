@@ -3,6 +3,7 @@ import freeCodeCamp from '../../assets/certificates/freeCodeCamp.png'
 import womenTechster from '../../assets/certificates/womenTechster.jpeg'
 import stuternHackathon from '../../assets/certificates/stuternHackathon.png'
 import courseraHTMLCertificate from '../../assets/certificates/courseraHTMLCSSCertificate.png'
+import courseraAdvancedReact from '../../assets/certificates/metaCourseraAdvancedReact.png'
 import courseraReactBasics from '../../assets/certificates/metaCourseraReactBasics.png'
 import courseraProgWithJSCertificate from '../../assets/certificates/courseraProgWithJSCertificate.png'
 
@@ -12,6 +13,18 @@ const Certificates = () => {
       <h2 className='font-light text-4xl'>Certificates</h2>
       
       <ul className='text-white columns-md gap-8 w-full max-w-full mx-auto my-20'>
+        <li>
+          <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
+            <figcaption className='font-poppins font-medium self-start sm:text-xl'>Meta Front-End Developer Specialization: Advanced React</figcaption>
+            <a className='flex flex-col gap-4 justify-start items-center' href="https://www.coursera.org/account/accomplishments/certificate/4FWZFNU8GHWR" target='_blank'>
+              <img 
+                  src={courseraAdvancedReact} 
+                  className='w-4/5'
+                  alt="Coursera Meta React Basics Certificates" />
+            </a>
+          </figure>
+        </li>
+
         <li>
           <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
             <figcaption className='font-poppins font-medium self-start sm:text-xl'>Meta Front-End Developer Specialization: React Basics</figcaption>
