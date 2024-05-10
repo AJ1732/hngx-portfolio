@@ -1,4 +1,5 @@
 import React from 'react'
+import dctp from '../../assets/certificates/dctp.png'
 import freeCodeCamp from '../../assets/certificates/freeCodeCamp.png'
 import womenTechster from '../../assets/certificates/womenTechster.jpeg'
 import stuternHackathon from '../../assets/certificates/stuternHackathon.png'
@@ -13,6 +14,20 @@ const Certificates = () => {
       <h2 className='font-light text-4xl'>Certificates</h2>
       
       <ul className='text-white columns-md gap-8 w-full max-w-full mx-auto my-20'>
+        {/* ADVANCED REACT */}
+        <li>
+          <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
+            <figcaption className='font-poppins font-medium self-start sm:text-xl'>DevCareer Tech Program: Frontend Engineering</figcaption>
+            <a className='flex flex-col gap-4 justify-start items-center' href="https://thealtschool.com/?sfwd-certificates=dctp-frontend-engineering&course_id=44634&cert-nonce=4f00ad1813" target='_blank'>
+              <img 
+                  src={dctp} 
+                  className='w-4/5'
+                  alt="DevCareer Tech Program" />
+            </a>
+          </figure>
+        </li>
+       
+        {/* ADVANCED REACT */}
         <li>
           <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
             <figcaption className='font-poppins font-medium self-start sm:text-xl'>Meta Front-End Developer Specialization: Advanced React</figcaption>
@@ -25,6 +40,7 @@ const Certificates = () => {
           </figure>
         </li>
 
+        {/* REACT BASICS */}
         <li>
           <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
             <figcaption className='font-poppins font-medium self-start sm:text-xl'>Meta Front-End Developer Specialization: React Basics</figcaption>
@@ -37,6 +53,7 @@ const Certificates = () => {
           </figure>
         </li>
 
+        {/* PROGRAMMING WITH JAVASCRIPT */}
         <li>
           <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
             <figcaption className='font-poppins font-medium self-start sm:text-xl'>Meta Front-End Developer Specialization: Programming with JavaScript</figcaption>
@@ -49,6 +66,7 @@ const Certificates = () => {
           </figure>
         </li>
         
+        {/* HTML & CSS COURSE */}
         <li>
           <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
             <figcaption className='font-poppins font-medium self-start sm:text-xl'>Meta Front-End Developer Specialization: HTML and CSS in depth</figcaption>
@@ -61,6 +79,7 @@ const Certificates = () => {
           </figure>
         </li>
 
+        {/* COMPLETE 2023 WEB BOOTCAMP */}
         <li>
           <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
             <figcaption className='font-poppins font-medium self-start sm:text-xl'>The Complete 2023 Web Development Bootcamp</figcaption>
@@ -73,6 +92,7 @@ const Certificates = () => {
           </figure>
         </li>
 
+        {/* STUTERN HACKATHON */}
         <li>
           <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
             <figcaption className='font-poppins font-medium self-start sm:text-xl'>Stutern Klusterthon Hackathon 2023</figcaption>
@@ -85,6 +105,7 @@ const Certificates = () => {
           </figure>
         </li>
 
+        {/* WOMEN TECHSTERS BOOTCAMP */}
         <li>
           <figure className='flex flex-col gap-4 justify-start items-center  bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
             <figcaption className='font-poppins font-medium self-start sm:text-xl'>Women Techster Bootcamp</figcaption>
@@ -97,6 +118,7 @@ const Certificates = () => {
           </figure>
         </li>
 
+        {/* FREECODECAMP RESPONSIVE WEB DESIGN */}
         <li>
           <figure className='flex flex-col gap-4 justify-start items-center bg-light-brown rounded p-8 | break-inside-avoid mb-8'>
             <figcaption className='font-poppins font-medium  self-start sm:text-xl'>FreeCodeCamp Responsive Web Design</figcaption>
