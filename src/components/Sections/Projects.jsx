@@ -1,6 +1,7 @@
 import React from 'react'
 import galleryDrop from '../../assets/projects/galleryDrop.png'
 import taskTracker from '../../assets/projects/taskTracker.png'
+import workoutTracker from '../../assets/projects/workoutTracker.png'
 import clearLink from '../../assets/projects/clearLink.png'
 import vanLife from '../../assets/projects/vanLife.png'
 import memeGenerator from '../../assets/projects/memeGenerator.png'
@@ -14,30 +15,59 @@ const Projects = () => {
       <h2 className='font-light text-4xl'>Projects</h2>
       
       <div className='text-white columns-md gap-8 w-full max-w-full mx-auto my-20 '>
+        {/* TASK TRACKER */}
         <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
-          <h2 className='font-poppins font-medium self-start sm:text-xl'>Gallery Drop</h2>
-          <p className='font-extralight'>A functional and responsive image gallery that showcases a collection of images in a visually appealing way. Ability to Login to the gallery page. Authenticated users are able to use the Drag-and-Drop feature, able to select and drag images, effortlessly rearranging them within the gallery. Built using the following technologies:</p>
+          <h2 className='font-poppins font-medium self-start sm:text-xl'>Workout Tracker</h2>
+          <p className='font-extralight'>Built a responsive workout tracker application, that allows users to create and delete workouts, helping them stay organized and manage their workout activities effectively. All workouts are stored and retrieved from a database. Implemented a user-friendly design using the following technologies:</p>
           <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>
             <Div skill={'React'} />
             <Div skill={'TailwindCSS'} />
-            <Div skill={'Firebase'} />
+            <Div skill={'MongoDB'} />
+            <Div skill={'NojeJS'} />
+            <Div skill={'ExpressJS'} />
           </ul>
           <figure>
             <img 
-                src={galleryDrop} 
+                src={workoutTracker} 
                 className='w-4/5 m-auto'
                 alt="Project Image" />
-          </figure>    
+          </figure>
           <div className='w-full flex justify-between items-center'>
             <a 
               className='self-start font-light hover:text-light-brown' 
-              href="https://1732-gallery-task.netlify.app/" target='_blank'>Link to Project</a>
+              href="https://1732-mern-workout.netlify.app/" target='_blank'>Link to Project</a>
             <a 
               className='self-start font-light hover:text-light-brown' 
-              href="https://github.com/AJ1732/gallery-task" target='_blank'>Link to GitHub Repo</a>
+              href="https://github.com/AJ1732/mern_stack" target='_blank'>Link to GitHub Repo</a>
+          </div>
+        </article>
+        
+        {/* TASK TRACKER */}
+        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
+          <h2 className='font-poppins font-medium self-start sm:text-xl'>Task Tracker</h2>
+          <p className='font-extralight'>Built a responsive task tracker application, that allows users to create and delete tasks, helping them stay organized and manage their daily activities effectively. Implemented a user-friendly design using the following technologies:</p>
+          <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>
+            <Div skill={'React'} />
+            <Div skill={'TailwindCSS'} />
+          </ul>
+          <figure>
+            <img 
+                src={taskTracker} 
+                className='w-4/5 m-auto'
+                alt="Project Image" />
+          </figure>
+          <div className='w-full flex justify-between items-center'>
+            <a 
+              className='self-start font-light hover:text-light-brown' 
+              href="https://1732-task-tracker.netlify.app/" target='_blank'>Link to Project</a>
+            <a 
+              className='self-start font-light hover:text-light-brown' 
+              href="https://github.com/AJ1732/task-tracker" target='_blank'>Link to GitHub Repo</a>
+
           </div>
         </article>
 
+        {/* MEME GENERATOR */}
         <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
           <h2 className='font-poppins font-medium self-start sm:text-xl'>Meme Generator</h2>
           <p className='font-extralight'>Are you ready to unleash your inner comedian and conquer the internet with humor? Look no further, because the Meme Generator is here to transform your everyday moments into viral sensations. Built using the following technologies: </p>
@@ -62,6 +92,32 @@ const Projects = () => {
           </div>
         </article> 
 
+        {/* GALLERY DROP */}
+        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
+          <h2 className='font-poppins font-medium self-start sm:text-xl'>Gallery Drop</h2>
+          <p className='font-extralight'>A functional and responsive image gallery that showcases a collection of images in a visually appealing way. Ability to Login to the gallery page. Authenticated users are able to use the Drag-and-Drop feature, able to select and drag images, effortlessly rearranging them within the gallery. Built using the following technologies:</p>
+          <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>
+            <Div skill={'React'} />
+            <Div skill={'TailwindCSS'} />
+            <Div skill={'Firebase'} />
+          </ul>
+          <figure>
+            <img 
+                src={galleryDrop} 
+                className='w-4/5 m-auto'
+                alt="Project Image" />
+          </figure>    
+          <div className='w-full flex justify-between items-center'>
+            <a 
+              className='self-start font-light hover:text-light-brown' 
+              href="https://1732-gallery-task.netlify.app/" target='_blank'>Link to Project</a>
+            <a 
+              className='self-start font-light hover:text-light-brown' 
+              href="https://github.com/AJ1732/gallery-task" target='_blank'>Link to GitHub Repo</a>
+          </div>
+        </article>
+
+        {/* PASS THE MESSAGE */}
         <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
           <h2 className='font-poppins font-medium self-start sm:text-xl'>Pass the Message</h2>
           <p className='font-extralight'>A simple Text lister. Input what you want. Built used the following technologies: </p>
@@ -87,53 +143,7 @@ const Projects = () => {
           </div>
         </article>
 
-        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
-          <h2 className='font-poppins font-medium self-start sm:text-xl'>Task Tracker</h2>
-          <p className='font-extralight'>Built a responsive task tracker application, that allows users to create and delete tasks, helping them stay organized and manage their daily activities effectively. Implemented a user-friendly design using the following technologies:</p>
-          <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>
-            <Div skill={'React'} />
-            <Div skill={'TailwindCSS'} />
-          </ul>
-          <figure>
-            <img 
-                src={taskTracker} 
-                className='w-4/5 m-auto'
-                alt="Project Image" />
-          </figure>
-          <div className='w-full flex justify-between items-center'>
-            <a 
-              className='self-start font-light hover:text-light-brown' 
-              href="https://1732-task-tracker.netlify.app/" target='_blank'>Link to Project</a>
-            <a 
-              className='self-start font-light hover:text-light-brown' 
-              href="https://github.com/AJ1732/task-tracker" target='_blank'>Link to GitHub Repo</a>
-
-          </div>
-        </article>
-            
-        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
-          <h2 className='font-poppins font-medium self-start sm:text-xl'>Clear Link</h2>
-          <p className='font-extralight'>Welcome to Clear Link, your gateway to effortless video conferencing and seamless recording! Capture every moment, share important discussions, and shape the future of communication with us. Built using the following technologies:</p>
-          <ul className='w-full flex flex-wrap justify-between items-center gap-1 text-white'>
-            <Div skill={'React'}/>
-            <Div skill={'TailwindCSS'}/>
-          </ul>
-          <figure>
-            <img 
-                src={clearLink} 
-                className='w-4/5 m-auto'
-                alt="Project Image" />
-          </figure>
-          <div className='w-full flex justify-between items-center'>
-            <a 
-              className='self-start font-light hover:text-light-brown'
-              href="https://1732-clearlink.netlify.app/" target='_blank'>Link to Project</a>
-            <a 
-              className='self-start font-light hover:text-light-brown'
-              href="https://github.com/AJ1732/clearlink" target='_blank'>Link to GitHub Repo</a>
-          </div>
-        </article>
-
+        {/* VAN LIFE */}
         <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
           <h2 className='font-poppins font-medium self-start sm:text-xl'>Van Life</h2>
           <p className='font-extralight'>A react application simplify and enhance the van life experience for enthusiasts around the globe. Built using the following technologies:</p>
@@ -158,6 +168,7 @@ const Projects = () => {
           </div>
         </article>
         
+        {/* COURSERA HTML & CSS */}
         <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
           <h2 className='font-poppins font-medium self-start sm:text-xl'>Coursera HTML and CSS in-depth Portfolio Project</h2>
           <p className='font-extralight'>This portfolio project demonstrates my ability to create a visually appealing and user-friendly website for a fictional client, Mangata and Gallo, a jewelry store specializing in special occasions. Built using the following technologies: </p>
