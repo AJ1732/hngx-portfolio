@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link'
 
 import { motion } from "framer-motion"
 
-import cv from "../../assets/OSEZELE_EJEMEN_IBOI_FRONTEND_ENGINEER_CV.pdf"
+import cv from "../../assets/OSEZELE_EJEMEN_IBOI_FRONTEND_ENGINEER.pdf"
 
 const Navlinks = ({ isMobile, closeMobileMenu }) => {
 
