@@ -17,6 +17,11 @@ const AboutMe = () => {
     'GitHub',
     'DSA',
     'OOP',
+    'NodeJS',
+    'ExpressJS',
+    'MongoDB',
+    'SQL',
+    'PostgreSQL',
     'UI/UX Design'
   ]
 
@@ -39,9 +44,10 @@ const AboutMe = () => {
           ))}
         </ul>
         
-        <ul className='flex flex-col gap-1'>
-          <li>●	Well... Apart from English, I'm Proficient in languages such as HTML and JavaScript, as well as CSS</li>
-          <li>●	Familiarity with Frontend frameworks like Bootstrap, SCSS, Tailwind CSS, EJS, jQuery and React</li>
+        <ul className='mt-2 flex flex-col gap-1'>
+          <li>●	Well... Apart from English, I'm Proficient in languages such as HTML, CSS and JavaScript </li>
+          <li>●	Proficient with Frontend frameworks like Bootstrap, SCSS/SASS, TailwindCSS, EJS, jQuery and React</li>
+          <li>●	Familar with Backend technologies like NodeJS, ExpressJS, MongoDB, SQL, PostgreSQL, to make RESTful APIs</li>
           <li>● Understand web design principles and user experience (UX) design</li>
           <li>● Undergoing training in Data Structures like Stacks, Queues, List, Linked list and Hashmaps and Algorithms like Linear Search and Binary search in JavaScript to enhance problem-solving skills. As well as the concept of Big O notation and time complexity</li>
           <li>● I also engage in platforms like LeetCode and CodeWars to enhance my algorithmic and problem-solving skills. </li>
