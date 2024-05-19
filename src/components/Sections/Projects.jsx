@@ -67,29 +67,31 @@ const Projects = () => {
           </div>
         </article>
 
-        {/* MEME GENERATOR */}
+        {/* PASS THE MESSAGE */}
         <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
-          <h2 className='font-poppins font-medium self-start sm:text-xl'>Bloom Web Application</h2>
-          <p className='font-extralight'>Empower your journey of motherhood with Bloom. Your one-stop support system for information and connection for every step of your pregnancy. Built using the following technologies: </p>
+          <h2 className='font-poppins font-medium self-start sm:text-xl'>Pass the Message</h2>
+          <p className='font-extralight'>A simple Text lister. Input what you want. Built used the following technologies: </p>
           <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>
-            <Div skill={'React'} />
-            <Div skill={'TailwindCSS'} />
+            <Div skill={'HTML'} />
+            <Div skill={'CSS'} />
+            <Div skill={'JavaScript'} />
           </ul>
           <figure>
             <img 
-                src={bloom} 
+                src={passTheMessage} 
                 className='w-4/5 m-auto'
                 alt="Project Image" />
           </figure>
           <div className='w-full flex justify-between items-center'>
             <a 
               className='self-start font-light hover:text-light-brown'
-              href="https://frontend--tech-nexus-bloom-test.netlify.app/" target='_blank'>Link to Project</a>
+              href="https://1732-pass-the-message.netlify.app/" target='_blank'>Link to Project</a>
             <a 
               className='self-start font-light hover:text-light-brown'
-              href="/" target='_blank'>Coming Soon...</a>
+              href="https://github.com/AJ1732/pass-the-message" target='_blank'>Link to GitHub Page</a>
+
           </div>
-        </article> 
+        </article>
        
         {/* MEME GENERATOR */}
         <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
@@ -141,31 +143,29 @@ const Projects = () => {
           </div>
         </article>
 
-        {/* PASS THE MESSAGE */}
+        {/* BLOOM WEB APPLICATION */}
         <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
-          <h2 className='font-poppins font-medium self-start sm:text-xl'>Pass the Message</h2>
-          <p className='font-extralight'>A simple Text lister. Input what you want. Built used the following technologies: </p>
+          <h2 className='font-poppins font-medium self-start sm:text-xl'>Bloom Web Application</h2>
+          <p className='font-extralight'>Empower your journey of motherhood with Bloom. Your one-stop support system for information and connection for every step of your pregnancy. Built using the following technologies: </p>
           <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>
-            <Div skill={'HTML'} />
-            <Div skill={'CSS'} />
-            <Div skill={'JavaScript'} />
+            <Div skill={'React'} />
+            <Div skill={'TailwindCSS'} />
           </ul>
           <figure>
             <img 
-                src={passTheMessage} 
+                src={bloom} 
                 className='w-4/5 m-auto'
                 alt="Project Image" />
           </figure>
           <div className='w-full flex justify-between items-center'>
             <a 
               className='self-start font-light hover:text-light-brown'
-              href="https://1732-pass-the-message.netlify.app/" target='_blank'>Link to Project</a>
+              href="https://frontend--tech-nexus-bloom-test.netlify.app/" target='_blank'>Link to Project</a>
             <a 
               className='self-start font-light hover:text-light-brown'
-              href="https://github.com/AJ1732/pass-the-message" target='_blank'>Link to GitHub Page</a>
-
+              href="/" target='_blank'>Coming Soon...</a>
           </div>
-        </article>
+        </article> 
 
         {/* VAN LIFE */}
         <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
