@@ -2,7 +2,7 @@ import React from 'react'
 import galleryDrop from '../../assets/projects/galleryDrop.png'
 import taskTracker from '../../assets/projects/taskTracker.png'
 import workoutTracker from '../../assets/projects/workoutTracker.png'
-import clearLink from '../../assets/projects/clearLink.png'
+import bloom from '../../assets/projects/bloom.png'
 import vanLife from '../../assets/projects/vanLife.png'
 import memeGenerator from '../../assets/projects/memeGenerator.png'
 import passTheMessage from '../../assets/projects/passTheMessage.png'
@@ -15,7 +15,7 @@ const Projects = () => {
       <h2 className='font-light text-4xl'>Projects</h2>
       
       <div className='text-white columns-md gap-8 w-full max-w-full mx-auto my-20 '>
-        {/* TASK TRACKER */}
+        {/* WORKOUT TRACKER */}
         <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
           <h2 className='font-poppins font-medium self-start sm:text-xl'>Workout Tracker</h2>
           <p className='font-extralight'>Built a responsive workout tracker application, that allows users to create and delete workouts, helping them stay organized and manage their workout activities effectively. All workouts are stored and retrieved from a database. Implemented a user-friendly design using the following technologies:</p>
@@ -67,6 +67,30 @@ const Projects = () => {
           </div>
         </article>
 
+        {/* MEME GENERATOR */}
+        <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
+          <h2 className='font-poppins font-medium self-start sm:text-xl'>Bloom Web Application</h2>
+          <p className='font-extralight'>Empower your journey of motherhood with Bloom. Your one-stop support system for information and connection for every step of your pregnancy. Built using the following technologies: </p>
+          <ul className='w-full flex flex-wrap justify-between items-center gap-4 text-white'>
+            <Div skill={'React'} />
+            <Div skill={'TailwindCSS'} />
+          </ul>
+          <figure>
+            <img 
+                src={bloom} 
+                className='w-4/5 m-auto'
+                alt="Project Image" />
+          </figure>
+          <div className='w-full flex justify-between items-center'>
+            <a 
+              className='self-start font-light hover:text-light-brown'
+              href="https://frontend--tech-nexus-bloom-test.netlify.app/" target='_blank'>Link to Project</a>
+            <a 
+              className='self-start font-light hover:text-light-brown'
+              href="/" target='_blank'>Coming Soon...</a>
+          </div>
+        </article> 
+       
         {/* MEME GENERATOR */}
         <article className='flex flex-col gap-4 justify-start items-center bg-dark-brown rounded p-8 | h-fit | break-inside-avoid mb-8'>
           <h2 className='font-poppins font-medium self-start sm:text-xl'>Meme Generator</h2>
