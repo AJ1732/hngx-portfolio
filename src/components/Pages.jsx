@@ -13,8 +13,8 @@ const Pages = () => {
       <Home />
       <AboutMe />
       <Projects />
-      <Certificates />
       <Collaborations />
+      <Certificates />
       <Contact />
     </>
   )

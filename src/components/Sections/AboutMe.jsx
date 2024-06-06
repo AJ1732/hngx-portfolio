@@ -29,7 +29,7 @@ const AboutMe = () => {
     <section id='aboutme' className='min-h-fit w-full h-full pt-24 px-10 |  | flex flex-col gap-10'>
       <h2 className='font-light text-4xl'>About Me</h2>
       <div className='font-normal text-xl flex flex-col gap-2'>
-        <p>An inquisitive and motivated Frontend Engineer, willing to obtain such position to utilize my skills in web development and programming, while continuously improving my skills and knowledge in this field.</p>
+        <p>An inquisitive and motivated Software Engineer, willing to obtain such position to utilize my skills in web development and programming, while continuously improving my skills and knowledge in this field.</p>
         <p>Possesses a proactive attitude and strong communication skills. A great problem solver and rational thinker, with excellent teamwork abilities in performing tasks.</p>
         <p>Fluent in English, beginner in French and Korean</p>
       </div>
